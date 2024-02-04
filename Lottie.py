@@ -1,8 +1,7 @@
 #Importieren
 import math
 
-#Operatoren 
-
+#Operatoren und Operanden
 '''
 +       Plus
 +=      Plus und Zuweisung
@@ -19,8 +18,8 @@ import math
 '''
 
 #Variablen
-a = 10
-b = 4
+a = 2
+b = 10
 
 #Plus
 a + b
@@ -46,6 +45,13 @@ a = b
 #Kleiner
 a < b
 
+a = 2
+b = 10
+
+while a < b:
+    print(a)
+    a += 1
+
 #Groesser
 a > b
 
@@ -57,4 +63,5 @@ a >= b
 
 #Vergleichsop
 a == b
+
 
