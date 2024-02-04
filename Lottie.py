@@ -49,8 +49,8 @@ a = 2
 b = 10
 
 while a < b:
+    a +=1
     print(a)
-    a += 1
 
 #Groesser
 a > b
